@@ -155,7 +155,8 @@ function initMap() {
     //the map options
     var options = {
         zoom: 15,
-        center: { lat:  -4.063014463435608, lng: 39.67852061489246 }
+        center: { lat:  0.048873163371151475, lng: 37.64883181756815 }
+         
 
     }
 
@@ -263,7 +264,8 @@ function initMap() {
 
     //rented add plate
     addMarker({
-        coords: { lat: -4.049597401461927, lng:39.66551071398183 },
+         
+        coords: { lat: 0.05102966113474724, lng:37.645441500884914 },
         iconImage: rentedPlate,
         content: `<p class="d-none">approved|identifier</p><h6 class="text-uppercase d-flex align-items-center">
             <span class="active-agent mr-2">
@@ -286,7 +288,8 @@ function initMap() {
 
     //rented add plate
     addMarker({
-        coords: { lat: -4.041313551275562, lng: 39.67849748172922 },
+         
+        coords: { lat: 0.04748913731962726, lng: 37.6514389498308 },
         iconImage: multiPlate,
         content: `<p class="d-none">multi-plate|identifier</p><h6 class="text-uppercase d-flex align-items-center">
             <span class="active-agent mr-2">
@@ -326,7 +329,8 @@ function initMap() {
 
     //approved applications
     addMarker({
-        coords: { lat:  -4.038096676179101, lng: 39.65455578777677 },
+         
+        coords: { lat: 0.05227421185936815, lng: 37.64604231626879 },
         iconImage: approved,
         content: `<p class="d-none">approved|identifier</p><h6 class="text-uppercase d-flex align-items-center">
             <span class="active-agent mr-2">
@@ -350,7 +354,7 @@ function initMap() {
     addMarker({
 
          
-        coords: { lat: -4.030572857836405, lng: 39.69180063120369 },
+        coords: { lat: 0.047338931039826754, lng: 37.652061233738564 },
         iconImage: ongoing,
         content: `<p class="d-none">application|identifier</p><h6 class="text-uppercase d-flex align-items-center">
             <span class="unclump-car mr-2">
@@ -372,7 +376,7 @@ function initMap() {
 
     addMarker({
          
-        coords: { lat: -4.036074294183295, lng: 39.6685327475786 },
+        coords: { lat: 0.04518240818013231, lng:37.65284446885665 },
         iconImage: rejected,
         content: `<p class="d-none">application|identifier</p><h6 class="text-uppercase d-flex align-items-center">
             <span class="offline-agent mr-2">
@@ -397,7 +401,7 @@ function initMap() {
     //a rented add plate
     addMarker({
          
-        coords: { lat: -4.073270523150011, lng: 39.66755510096793 },
+        coords: { lat: 0.04765007485068275, lng: 37.64866015592027 },
         iconImage: rentedPlate,
         content: `<p class="d-none">approved|identifier</p><h6 class="text-uppercase d-flex align-items-center">
             <span class="active-agent mr-2">
@@ -422,8 +426,8 @@ function initMap() {
     //inactive agent
     addMarker({
          
-        
-        coords: { lat: -4.084692471782441, lng:  39.66113141562806 },
+         
+        coords: { lat: 0.04593345327524413, lng:  37.64962576017688 },
         iconImage: inactiveAgent,
         content: '<p class="d-none">agent|plate num</p><h6 class="text-capitalize d-flex align-items-center"><span class="offline-agent mr-2"></span> <span>Alex Wanjala <small><strong>(INACTIVE)</strong></small></span></h6> <p class="pb-0 mb-0">Last seen at <strong>Tom Mboya Street</strong> at 2:06 PM </strong></p><p>Most recent activity: <strong>Queried Car plate Number KBW 2589T at 11:41PM</strong><div class="listview text-align-left text-capitalize pl-0">  <div class="listview__header text-align-left text-capitalize text-left"><strong>23MB data (70%)</strong> Consumed in the <strong>last 13 Days</strong></div> <div class="progress"> <div class="progress-bar progress-bar-warning" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> </div></div></p> '
     });
@@ -432,7 +436,7 @@ function initMap() {
     addMarker({
          
          
-        coords: { lat: -4.11132716719637, lng: 39.64129603223653 },
+        coords: { lat:0.04731747286193642,  lng: 37.652179253368786 },
         iconImage: inactiveAgent,
         content: '<p class="d-none">agent|agent num</p><h6 class="text-capitalize d-flex align-items-center"><span class="offline-agent mr-2"></span> <span>Alex Wanjala <small><strong>(INACTIVE)</strong></small></span></h6> <p class="pb-0 mb-0">Last seen at <strong>Tom Mboya Street</strong> at 2:06 PM </strong></p><p>Most recent activity: <strong>Queried Car plate Number KBW 2589T at 11:41PM</strong></p> <div class="listview text-align-left text-capitalize pl-0">  <div class="listview__header text-align-left text-capitalize text-left"><strong>2MB data (25%)</strong> Consumed in the <strong>last 21 Days</strong></div> <div class="progress"> <div class="progress-bar progress-bar-success" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div> </div></div>'
     });
@@ -441,7 +445,7 @@ function initMap() {
     addMarker({
 
          
-        coords: { lat: -4.018047323179733, lng: 39.61052257487643 },
+        coords: { lat: 0.05222056773847153, lng: 37.64695426967938 },
          
         iconImage: activeAgent,
         content: `<p class="d-none">agent|plate num</p>
@@ -465,8 +469,8 @@ function initMap() {
     //damaged plate
     addMarker({
          
-        
-        coords: { lat: -4.003984685239625, lng: 39.58299432920718 },
+         
+        coords: { lat: 0.05017135446650395, lng: 37.64345666221847 },
         iconImage: damagedPlate,
         content: `<p class="d-none">plate|unique identifier</p>
             <h6 class="text-uppercase d-flex align-items-center"><span class=" mr-2 offline-agent"></span><span>KGYHU789</span></h6>
@@ -481,8 +485,8 @@ function initMap() {
     //available for renting plate
     addMarker({
          
-        
-        coords: { lat: -4.018710603213986,lng:  39.572156370951525},
+         
+        coords: { lat: 0.04434552864069201,lng:37.654250002019076},
         iconImage: availablePlate,
         content: `<p class="d-none">plate-available|unique identifier</p>
                 <h6 class="text-uppercase d-flex align-items-center">
@@ -514,7 +518,7 @@ function initMap() {
     addMarker({
          
        
-        coords: { lat:-4.076456636197611,lng: 39.667784829292934 },
+        coords: { lat:0.051147682176768586,lng: 37.648982025320954 },
         iconImage: availablePlate,
         content: `<p class="d-none">plate-available|unique identifier</p>
             <h6  class="text-uppercase d-flex align-items-center">
@@ -529,9 +533,10 @@ function initMap() {
 
     //city hall
     addMarker({
-
+         
         
-        coords: { lat: -4.062832530830113,lng: 39.67868154748457 },
+        
+        coords: { lat: 0.0489268075464804,lng: 37.64858505342472 },
         iconImage: hall_icon,
         content: `<p class="d-none">collectionPoint|identifier</p><h4>City Hall</h4><P><strong>KES 5,230,600</strong> already collected</p>`,
 
@@ -555,7 +560,8 @@ function initMap() {
 
     //service point or collection point
     addMarker({
-        coords: { lat: -4.061204140987119, lng: 39.67212964093302 },
+         
+        coords: { lat: 0.046845411137755345, lng: 37.648327561774295 },
         iconImage: servicePoint,
         content: '<p class="d-none">collectionPoint|identifier</p><h6>RevenueSure Agent</h6> <P><strong>KES 5,230,600</strong> already collected</p>'
     });
